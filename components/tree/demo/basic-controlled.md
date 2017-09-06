@@ -62,6 +62,7 @@ class Demo extends React.Component {
     });
   }
   onCheck = (checkedKeys) => {
+    console.log(checkedKeys);
     this.setState({
       checkedKeys,
       selectedKeys: ['0-3', '0-4'],
